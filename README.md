@@ -9,7 +9,7 @@ mais a date ca fonctionne bien .
 
 je me suis servi de plusieur exemple de library ,
 
-Ce throttle est basé sur esp32 et un TFT 3,2 pouce SPI .
+Ce throttle est basé sur Esp32 Wroom et un TFT 3,2 pouce SPI .
 
 Presentement le mode simple Loco est pratiquement terminer ,je travaille a developper le mode consiste,
 
