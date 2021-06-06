@@ -59,6 +59,6 @@ void loop()
     {
     	Power();
     }
-    int test = 32 ;
+    
 }   
   
