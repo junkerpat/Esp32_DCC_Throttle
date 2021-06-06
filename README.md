@@ -1,5 +1,5 @@
 # ADCCEsp_Throttle
-Premiere Version mais incomplete d'un Throttle Wifi pour JMRI
+Premiere Version mais incomplete d'un Throttle Wifi pour JMRI WiThrottle Server
 
 Ceci est mon second Throttle , le premier etant une version updaté de celui de leo bodnar .
 
