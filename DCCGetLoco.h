@@ -119,17 +119,34 @@ void DCCGetLoco_setup()
 //----------------------------**** LOOP ****-------------------------------------------
 void DCCGetLoco_loop() 
 {
+	if(GetLocoMode == 0)
+	{
+  		if(LocoAddress == 0)
+  		{
+    		status("No Loco Select") ;
+  		}
+  		else 
+  		{
+    		char status_char[24] ;
+      		sprintf(status_char , "Active Loco = %d" , LocoAddress) ;
+      		status(status_char) ;
+  		}
+	}
+	else
+	{
+		if(LocoAddress == 0)
+  		{
+    		status("No consist") ;
+  		}
+  		else 
+  		{
+    		char status_char[50] ;
+			tft.setFreeFont(LABEL8_FONT);
+      		sprintf(status_char , "C%d %d %d %d %d", LocoAddress, ConsistLoco[0], ConsistLoco[1],ConsistLoco[2], ConsistLoco[3]) ;
+      		status(status_char) ;
+  		}
 
-  	if(LocoAddress == 0)
-  	{
-    	status("No Loco Select") ;
-  	}
-  	else 
-  	{
-    	char status_char[24] ;
-      	sprintf(status_char , "Active Loco = %d" , LocoAddress) ;
-      	status(status_char) ;
-  	}
+	}
 
     uint16_t t_x = 0, t_y = 0; // To store the touch coordinates
     int number = LocoAddress;
@@ -280,12 +297,7 @@ void DCCGetLoco_loop()
 
         	if (a == 19) 
         	{
-          		// status("Main Screen");
-          		// numberIndex = 0; // Reset index to 0
-          		// numberBuffer[numberIndex] = 0; // Place null in buffer
-          		// Mymenu = 0 ;
-          		// //TFTLocoAdresse();
-          		// status(""); // Clear the old status
+          		
         	}
 
     		// Update the number display field

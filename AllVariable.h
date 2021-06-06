@@ -92,12 +92,13 @@ int Mymenucur ;
 
 int REPEAT_CAL = false ;
 
-//Save Restore loco
+//DccGetLoco
 
 int ActiveAddress = 0 ; 
 int MaxLoco = 4 ;
 int LocoAddress = 0 ;
 int LocoDirection  ;
 int LocoDirectioncur  ;
+int ConsistLoco[4] = {1000,2000,3000,4000} ;
 
 #endif
