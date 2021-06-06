@@ -16,3 +16,5 @@ Presentement le mode simple Loco est pratiquement terminer ,je travaille a devel
 ainsi la modification et la sauvegarde des parametre afin de la rendre " StandAlone" sans avoir a la
 
 rebrancher pour changer de systeme .
+
+Un merci special a mon fils qui me debloque tres souvent !!!!! 🤪 👍 💪 il est fort !!!!!!
