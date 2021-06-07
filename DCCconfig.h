@@ -4,8 +4,8 @@
 #ifndef DCCconfig
 #define DCCconfig
 
-const char* SSID = "DCCEXRR" ;       // Your network SSID (name)
-const char* PASS = "CN4715CN" ;      // Your network password
+const char* SSID = "Your SSID" ;       // Your network SSID (name)
+const char* PASS = "Network password" ;      // Your network password
 const char* HOST = "192.168.0.101" ; // DCC command Station / JMRI Address
 const int PORT = 12060 ;             // DCC command Station / JMRI Port
 String Id = "DCCthrottle-2" ;        // Your Throttle ID 
