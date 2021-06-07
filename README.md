@@ -1,9 +1,7 @@
 # ADCCEsp_Throttle
 Premiere Version mais incomplete d'un Throttle Wifi pour JMRI WiThrottle Server
 
-Ceci est mon second Throttle , le premier etant une version updaté de celui de leo bodnar .
-
-je suis debutant en C++ , donc le code n'est peut être pas parfait , et peut être trop long des fois ,
+je suis debutant en C++ , donc le code n'est peut être pas parfait ,
 
 mais a date ca fonctionne bien .
 
@@ -17,4 +15,4 @@ ainsi la modification et la sauvegarde des parametre afin de la rendre " StandAl
 
 rebrancher pour changer de systeme .
 
-Un merci special a mon fils qui me debloque tres souvent !!!!! 🤪 👍 💪 il est fort !!!!!!
+
