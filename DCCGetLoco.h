@@ -149,7 +149,9 @@ void DCCGetLoco_loop()
 	}
 
     uint16_t t_x = 0, t_y = 0; // To store the touch coordinates
-    int number = LocoAddress;
+	
+	
+	int number = LocoAddress ;
     char numberstring[(((sizeof number) * CHAR_BIT) + 2)/3 + 2];
     sprintf(numberstring, "%d", number);
     //status(numberstring);

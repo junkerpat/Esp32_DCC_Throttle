@@ -34,6 +34,13 @@ String Version = "Verison 1.1 WIFI" ;
 
 String AddRemLoco ;
 int GetLocoMode ;
+int ActiveAddress = 0 ; 
+int MaxLoco = 4 ;
+int LocoAddress = 0 ;
+int LocoDirection  ;
+int LocoDirectioncur  ;
+int ConsistLoco[4] = {1000,2000,3000,4000} ;
+int ConsistAddress ;
 
 
 //DCCsend
@@ -92,13 +99,8 @@ int Mymenucur ;
 
 int REPEAT_CAL = false ;
 
-//DccGetLoco
 
-int ActiveAddress = 0 ; 
-int MaxLoco = 4 ;
-int LocoAddress = 0 ;
-int LocoDirection  ;
-int LocoDirectioncur  ;
-int ConsistLoco[4] = {1000,2000,3000,4000} ;
+
+
 
 #endif
