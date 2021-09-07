@@ -22,7 +22,6 @@
 #include <AiEsp32RotaryEncoder.h>
 
 
-
 #define DEBUG
 
 
@@ -61,5 +60,6 @@ void loop()
     	Power();
     }
     
+   
 }   
   
